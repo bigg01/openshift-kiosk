@@ -2,8 +2,8 @@
 # Version 1
 
 # Pull the rhel image from the local repository
-FROM centos:6
-MAINTAINER Ken Evensen
+FROM centos:7
+MAINTAINER oli g
 
 LABEL io.openshift.expose-services="5901:tcp"
 
